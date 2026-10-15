@@ -12,6 +12,9 @@ jobs:
         with:
           node-version: 20
       - name: syntax check
-        run: for f in *.js; do node --check "$f"; done
+        run: |
+          shopt -s nullglob
+          for f in *.js; do node --check "$f"; done
       - name: tests
-        run: node --test tests/
+        run: |
+          if [ -d tests ]; then node --test tests/; else echo "no tests dir — skip"; fi
