@@ -9,3 +9,4 @@ function applyDiscount(cart, percent) {
   return total;
 }
 module.exports = { applyDiscount };
+// re-trigger review: new head for a fresh round (prior run BLOCKED: fixer hint-only, transport fixed)
