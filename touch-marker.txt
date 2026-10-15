@@ -1,0 +1,3 @@
+"""Sample utilities for rc.17 first real-PR review acceptance."""
+
+# rc.18 webhook-secret rotation verification touch (2026-10-08).
