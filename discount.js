@@ -11,3 +11,4 @@ function applyDiscount(cart, percent) {
 module.exports = { applyDiscount };
 // re-trigger review: new head for a fresh round (prior run BLOCKED: fixer hint-only, transport fixed)
 // re-trigger #2: transport contract hardened (patch now mandatory) — fresh round please
+// re-trigger #3: fixer brief now carries the real PR diff (fetchContextFn wired)

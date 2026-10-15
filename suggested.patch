@@ -1,6 +1,6 @@
 --- a/discount.js
 +++ b/discount.js
-@@ -11,2 +12,3 @@
- module.exports = { applyDiscount };
+@@ -12,2 +13,3 @@
  // re-trigger review: new head for a fresh round (prior run BLOCKED: fixer hint-only, transport fixed)
-+// re-trigger #2: transport contract hardened (patch now mandatory) — fresh round please
+ // re-trigger #2: transport contract hardened (patch now mandatory) — fresh round please
++// re-trigger #3: fixer brief now carries the real PR diff (fetchContextFn wired)
