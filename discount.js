@@ -1,4 +1,5 @@
 function applyDiscount(cart, percent) {
+  if (cart == null || !Array.isArray(cart.items)) return 0;
   if (percent > 100) throw new Error("percent too large");
   if (percent < 0) throw new Error("percent must be non-negative");
   const factor = 1 - percent / 100;
